@@ -1,0 +1,35 @@
+{
+  "name": "javascript-dom",
+  "version": "1.0.0",
+  "description": "Starter Repo for JavaScript DOM",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ultimatecourses/javascript-dom.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "Ultimate Courses",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/register": "^7.22.15",
+    "babel-loader": "^8.3.0",
+    "css-loader": "^3.6.0",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.4",
+    "eslint-plugin-import": "^2.28.1",
+    "file-loader": "^5.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "script-ext-html-webpack-plugin": "^2.1.5",
+    "style-loader": "^1.3.0",
+    "webpack": "^4.47.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.3"
+  }
+}
